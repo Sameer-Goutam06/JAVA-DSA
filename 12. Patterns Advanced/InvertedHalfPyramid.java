@@ -1,6 +1,7 @@
 import java.util.*;
 public class InvertedHalfPyramid {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of rows:");
         int n=sc.nextInt();

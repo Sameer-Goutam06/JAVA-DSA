@@ -10,18 +10,19 @@ import java.util.*;
 public class isPrime {
     public static void main(String[] args) {
         System.out.println("Enter a number");
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         long n=sc.nextInt();
         List<Long> l=new ArrayList<>();
         for(long i=2;i<n;i++)
         {
-            if (isPrime(i)){
+            if (isPrimeno(i)){
                 l.add(i);
             }
         }
         System.out.println(l);
     }
-    public static boolean isPrime(long n)
+    public static boolean isPrimeno(long n)
     {
         for(long i=2;i<=Math.sqrt(n);i++)
         {

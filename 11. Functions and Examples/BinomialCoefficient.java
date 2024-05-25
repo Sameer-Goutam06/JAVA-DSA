@@ -1,6 +1,7 @@
 import java.util.*;
 public class BinomialCoefficient {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter values of n and r to calculate combinations");
         int n=sc.nextInt();

@@ -3,6 +3,7 @@ import java.util.*;
 public class BinaryToDecimal {
     public static void main(String[] args) 
     {
+        @SuppressWarnings("resource")
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Binary Number: ");
         String s=sc.next();
