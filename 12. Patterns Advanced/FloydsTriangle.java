@@ -17,6 +17,7 @@ public class FloydsTriangle
             }
             System.out.println();
         }
+        System.out.println();
         System.out.println("0-1 Triangle");
         for(int i=1;i<=n;i++)
         {
