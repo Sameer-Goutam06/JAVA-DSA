@@ -1,4 +1,3 @@
-import java.util.*;
 //condition to be added to claculate trapping water
 //minimum of (left side maximum height bar , right side maximum height bar)-height of the bar >0
 public class TrappingRainWater 
