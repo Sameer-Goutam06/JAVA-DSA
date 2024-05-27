@@ -22,9 +22,10 @@ public class TrappingRainWater
             trappedwater+=((prefix[i]<suffix[i])?prefix[i]:suffix[i])-heights[i];
         }
         System.out.println(trappedwater);
+        trap(heights);
     }    
     //other way using while loop
-    public int trap(int[] height)
+    public static void trap(int[] height)
      {
         int l = 0, r = height.length - 1;
         int leftMax = height[l], rightMax = height[r];
@@ -43,6 +44,6 @@ public class TrappingRainWater
                 total += rightMax - height[r];
             }
         }
-        return total;
+        System.out.println(total);
     }
 }
