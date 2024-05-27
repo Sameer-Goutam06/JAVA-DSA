@@ -1,0 +1,7 @@
+skipped basics of AND,OR,NOT(~)
+also skipped some basics of finding even and odd(using AND operator and LSB)
+skipped 1s(invert 0s to 1s and 1s to 0s) and 2s complement(1s+1)
+left shift(<<) - a<<b= a*Math.pow(2,b) //moves bits b positions to left (no loss only increase) vacant spaces occupied by 0s as LSB
+right shift(>>)- a>>b= a/Math.pow(2,b) //moves bits b positions to right (only loss no increase) previous spaces occupied by 0s
+we can use 1<<i to calculate a power of 2 the value of i determines the exponent
+Own Trick- Using a binary of a number we can coin a thing that if a number is power of 2 or its powers (having only 1 bit set in whole binary format)
