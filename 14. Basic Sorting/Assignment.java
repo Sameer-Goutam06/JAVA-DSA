@@ -1,6 +1,6 @@
 import java.util.*;
 //Sort the elements in reverse order
-public class SortingAssignment 
+public class Assignment 
 {
     public static void main(String[] args) 
     {
