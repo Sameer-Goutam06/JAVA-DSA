@@ -1,8 +1,5 @@
-
 import java.util.*;
-
 public class RangeOfPrimes {
-
     public static void main(String[] args) {
         int n=1000001;
         int[] arr=new int[n];
