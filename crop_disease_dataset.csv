@@ -1,0 +1,5 @@
+temperature, humidity, rainfall, ph, disease
+25, 80, 200, 6.5, Yellow Spot
+30, 70, 180, 7, Bacterial Blight
+22, 85, 250, 6.3, Yellow Spot
+28, 75, 190, 6.8, Bacterial Blight

@@ -3,7 +3,10 @@ public class SearchInSortedMatrix
     public static void main(String[] args) 
     {
         // a sorted matrix is increasing when it is traversed through rows and also through columns
-        int[][] matrix={{10,20,30,40},{15,25,35,45},{27,29,37,48},{32,33,39,50}};
+        int[][] matrix={{10,20,30,40},
+                        {15,25,35,45},
+                        {27,29,37,48},
+                        {32,33,39,50}};
         int row=0,column=matrix[0].length-1;
         int key=33;
         boolean found=false;

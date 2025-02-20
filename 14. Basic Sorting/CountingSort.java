@@ -20,12 +20,12 @@ public class CountingSort
         int j=0;
         for(int i=0;i<count.length;i++)
         {
-             while(count[i]>0)
-             {
-                arr[j]=i;
-                j++;
-                count[i]--;
-             }
+            while(count[i]>0)
+            {
+            arr[j]=i;
+            j++;
+            count[i]--;
+            }
         }
         System.out.println(Arrays.toString(arr));
     }
