@@ -1,8 +1,6 @@
 package Trees;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 class TreeNode
 {
@@ -105,7 +103,6 @@ public class TreeBasics {
             System.out.println("Full Binary Tree"+(FullBinaryTree(root)?"True":"False"));
             System.out.println("Complete Binary Tree"+(CBT(root)?"True":"False"));
             System.out.println("Height of the tree is: "+heightOfTree(root));
-            
         }
         sc.close();
     }
