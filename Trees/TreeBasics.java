@@ -80,11 +80,14 @@ public class TreeBasics {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of test cases: ");
         int tc=sc.nextInt();
         while(tc-->0)
         {
+            System.out.println("Enter the number of nodes in the tree: ");
             int n=sc.nextInt();
             TreeNode root=null;
+            System.out.println("Enter the values of the nodes line by line: ");
             int val=sc.nextInt();
             root=insertNode(root,val);
             TreeNode temp=root;
