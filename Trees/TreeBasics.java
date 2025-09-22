@@ -1,17 +1,7 @@
 package Trees;
 
 import java.util.*;
-
-class TreeNode
-{
-    int val,depth;
-    TreeNode left,right;
-    TreeNode(int val)
-    {
-        this.val=val;
-        this.left=this.right=null;
-    }
-}
+import Trees.TreeNode;
 
 public class TreeBasics {
     public static void inorder(TreeNode root)
@@ -77,7 +67,6 @@ public class TreeBasics {
         }
         return true;
     }
-
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of test cases: ");

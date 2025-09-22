@@ -16,14 +16,20 @@ public class SpiralMatrix {
                 System.out.print(matrix[i][endCol]+" ");
             }
             //botttom to left traversal
-            for(int i=endCol-1;i>=startCol;i--)
+            if(startRow<endRow)
             {
-                System.out.print(matrix[endRow][i]+" ");
+                for(int i=endCol-1;i>=startCol;i--)
+                {
+                    System.out.print(matrix[endRow][i]+" ");
+                }
             }
             //left to top-1 traversal
-            for(int i=endRow-1;i>=startRow+1;i--)
+            if(startCol<endCol)
             {
-                System.out.print(matrix[i][startCol]+" ");
+                for(int i=endRow-1;i>=startRow+1;i--)
+                {
+                    System.out.print(matrix[i][startCol]+" ");
+                }
             }
             startRow++;
             startCol++;
